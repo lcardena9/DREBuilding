@@ -7,10 +7,7 @@ import plumbing from '../photos/servicesPhotos/plumbing.jpg'
 import shower from '../photos/servicesPhotos/shower.jpg'
 
 
-
 class ServicesPage extends Component {
-
-
 
     render() {
         return (
@@ -82,8 +79,4 @@ class ServicesPage extends Component {
                         }
                     
                     }
-                    
-                    
-                    
-                    
 export default ServicesPage;

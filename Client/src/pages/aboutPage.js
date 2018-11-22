@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import owner from '../photos/owner.jpg'
 
 
@@ -34,6 +35,7 @@ class AboutPage extends Component {
                     </div>
                 </div>
             </div>
+
 
         );
     }

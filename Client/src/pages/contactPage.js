@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from '../photos/templogo.png'
 import BizMap from '../components/map'
 
+
 class ContactPage extends Component {
 
 
@@ -34,7 +35,6 @@ class ContactPage extends Component {
                 </div>
             </div>
         </div>
-
         );
     }
 
