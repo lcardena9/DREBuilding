@@ -7,7 +7,7 @@ class BizMap extends Component {
     render() {
         return (
             <div>
-                <Map center={[33.7901, -118.1937]} zoom={12} width={600} height={400} >
+                <Map center={[33.7901, -118.1937]} zoom={12} width={500} height={330} >
                     <Marker anchor={[33.7901, -118.1937]} payload={1} onClick={({ event, anchor, payload }) => { }} />
 
                     <Overlay anchor={[33.7901, -118.1937]} offset={[120, 79]}>

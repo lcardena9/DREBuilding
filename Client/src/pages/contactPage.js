@@ -10,27 +10,28 @@ class ContactPage extends Component {
         return (
             <div className="about-page">
             <div className="header-bar">
-                <h1 className="headers titles page-bar">About</h1>
+                <h1 className="headers titles page-bar">Contact</h1>
             </div >
             <div className="info-row">
                 <div className="two-column titles">
                     <div>
 
-                        <div className="info-column">
+                        <div className="contact-info-column">
                             <BizMap/>
                         </div>
                     </div>
                     <div>
                         <h1>D.R.E. Design & Build</h1>
-                        <div className="info-column">
+                        
+                        <div className="about-info-column" padding={0}>
                             <p className = "paragraph-info">
                                 Serving Long Beach, South Bay, Orange County, and the surrounding areas
-                                <br/><br/>
-                                <a href="tel:+1-562-506-5315">562.506.5315</a>
-                                <br/><br/>
+                                </p>
+                                <p><a href="tel:+1-562-506-5315">562.506.5315</a></p>
                                 <a href="mailto:Dominick.Espinoza17@gmail.com@gmail.com?Subject=Quote%20Request" target="_top">Dominick.Espinoza17@gmail.com</a>
-                            </p>
+                            
                         </div>
+                    
                     </div>
                 </div>
             </div>
