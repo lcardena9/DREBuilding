@@ -14,25 +14,24 @@ class ContactPage extends Component {
             </div >
             <div className="info-row">
                 <div className="two-column titles">
-                    <div>
-
+                    
+                    
                         <div className="contact-info-column">
                             <BizMap/>
                         </div>
-                    </div>
-                    <div>
+                    
+                    
+                    
+                        <div className="contact-info-column">
                         <h1>D.R.E. Design & Build</h1>
-                        
-                        <div className="about-info-column" padding={0}>
                             <p className = "paragraph-info">
                                 Serving Long Beach, South Bay, Orange County, and the surrounding areas
                                 </p>
                                 <p><a href="tel:+1-562-506-5315">562.506.5315</a></p>
                                 <a href="mailto:Dominick.Espinoza17@gmail.com@gmail.com?Subject=Quote%20Request" target="_top">Dominick.Espinoza17@gmail.com</a>
-                            
                         </div>
                     
-                    </div>
+
                 </div>
             </div>
         </div>

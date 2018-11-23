@@ -45,8 +45,9 @@
   object-fit: cover;
 }
 .contact-info-column {
-  height: auto;
-  width: 50%;
+  position: relative;
+  height: 400px;
+  width: 400px;
   justify-content: center;
 }
 .divider{
