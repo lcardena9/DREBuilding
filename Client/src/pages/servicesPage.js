@@ -18,65 +18,61 @@ class ServicesPage extends Component {
 
                 <div className="info-row">
                     <div className="three-column titles">
-                        
+
                         <div className="services-column">
                             <img className="services-column-icon" src={bedroom} />
                             <div className="overlay">
                                 <div class="overlay-text">Painting</div>
                             </div>
                         </div>
-                        
+
                         <div className="services-column">
                             <img className="services-column-icon" src={cabinents} />
                             <div className="overlay">
                                 <div class="overlay-text">Cabinetry</div>
                             </div>
                         </div>
-                        
+
+                        <div className="services-column">
+                            <img className="services-column-icon" src={shower} />
+                            <div className="overlay">
+                                <div class="overlay-text">Bathroom Remodel</div>
+                            </div>
+                        </div>
+
+                        <div className="services-column">
+                            <img className="services-column-icon" src={trophyCase} />
+                            <div className="overlay">
+                                <div class="overlay-text">Brick Work</div>
+                            </div>
+                        </div>
+
+                        <div>
                             <div className="services-column">
-                                <img className="services-column-icon" src={shower} />
+                                <img className="services-column-icon" src={exterior} />
                                 <div className="overlay">
-                                    <div class="overlay-text">Bathroom Remodel</div>
+                                    <div class="overlay-text">Stucco</div>
                                 </div>
                             </div>
+                        </div>
+
+                        <div>
+                            <div className="services-column">
+                                <img className="services-column-icon" src={plumbing} />
+                                <div className="overlay">
+                                    <div class="overlay-text">Foundation</div>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
 
+
                 </div>
-                        <div className="info-row">
-                            <div className="three-column titles">
+            </div>
 
-                                    <div className="services-column">
-                                        <img className="services-column-icon" src={trophyCase} />
-                                        <div className="overlay">
-                                            <div class="overlay-text">Brick Work</div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div>
-                                        <div className="services-column">
-                                            <img className="services-column-icon" src={exterior} />
-                                            <div className="overlay">
-                                                <div class="overlay-text">Stucco</div>
-                                            </div>
-                                        </div>
-                                    </div>
+        );
+    }
 
-                                        <div>
-                                            <div className="services-column">
-                                                <img className="services-column-icon" src={plumbing} />
-                                                <div className="overlay">
-                                                    <div class="overlay-text">Foundation</div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            );
-                        }
-                    
-                    }
+}
 export default ServicesPage;
