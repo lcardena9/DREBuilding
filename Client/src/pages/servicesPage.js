@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import bedroom from '../photos/servicesPhotos/bedroom.jpg'
 import cabinents from '../photos/servicesPhotos/cabinents.jpg'
-import trophyCase from '../photos/servicesPhotos/case.jpg'
+import hardwood from '../photos/servicesPhotos/hardwood.png'
 import exterior from '../photos/servicesPhotos/exterior.jpg'
-import plumbing from '../photos/servicesPhotos/plumbing.jpg'
+import fence from '../photos/servicesPhotos/woodenFence.png'
 import shower from '../photos/servicesPhotos/shower.jpg'
 
 
@@ -41,9 +41,9 @@ class ServicesPage extends Component {
                         </div>
 
                         <div className="services-column">
-                            <img className="services-column-icon" src={trophyCase} />
+                            <img className="services-column-icon" src={hardwood} />
                             <div className="overlay">
-                                <div class="overlay-text">Brick Work</div>
+                                <div class="overlay-text">Hardwood</div>
                             </div>
                         </div>
 
@@ -58,9 +58,9 @@ class ServicesPage extends Component {
 
                         <div>
                             <div className="services-column">
-                                <img className="services-column-icon" src={plumbing} />
+                                <img className="services-column-icon" src={fence} />
                                 <div className="overlay">
-                                    <div class="overlay-text">Foundation</div>
+                                    <div class="overlay-text">Fencing</div>
                                 </div>
                             </div>
                         </div>

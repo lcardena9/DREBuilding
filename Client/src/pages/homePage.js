@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import bedroom from '../photos/bedroom.jpeg';
-import livingroom from '../photos/livingroom.jpeg';
-import patio from '../photos/patio.jpeg';
+import blueHouse from '../photos/exteriorBluePaint.png';
+import stairs from '../photos/woodenStairs.png';
+import houseLawn from '../photos/exteriorPaintLawnDriveway.png';
 import logo from '../photos/drelogo.png';
 import { Link } from 'react-router-dom';
 
@@ -26,21 +26,21 @@ class HomePage extends Component {
                         <div>
                             <h1>About</h1>
                             <div className="info-column">
-                            <img className="column-icon" src={bedroom}/>
+                            <img className="column-icon" src={blueHouse}/>
                             <Link to="/about"><a className="more-button">About</a></Link>
                             </div>
                         </div>
                         <div>
                             <h1>Services</h1>
                             <div className="info-column">
-                            <img className="column-icon" src={livingroom}/>
+                            <img className="column-icon" src={stairs}/>
                             <Link to="/services"><a className="more-button">Services</a></Link>
                             </div>
                         </div>
                         <div>    
                             <h1>Contact</h1>
                             <div className="info-column">
-                            <img className="column-icon" src={patio}/>
+                            <img className="column-icon" src={houseLawn}/>
                             <Link to="/contact"><a className="more-button">Contact</a></Link>
                             </div>
                         </div>

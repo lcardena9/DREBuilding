@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../photos/templogo.png'
 import BizMap from '../components/map'
 
 
