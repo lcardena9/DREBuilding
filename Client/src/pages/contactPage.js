@@ -9,7 +9,7 @@ class ContactPage extends Component {
         return (
             <div className="about-page">
             <div className="header-bar">
-                <h1 className="headers titles page-bar">Contact</h1>
+                <h1 className="headers page-bar">Contact</h1>
             </div >
             <div className="info-row">
                 <div className="two-column titles">

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b5274e57f75cc605ff816f5e8a103641",
-    "url": "/static/media/bedroom.b5274e57.jpg"
+    "revision": "3eb2d9e2a5cc7edbae797f365ae1521f",
+    "url": "/static/media/cabinents.3eb2d9e2.jpg"
   },
   {
-    "revision": "917b20dfcfec46b4aafd",
-    "url": "/static/css/main.3dd9a4ee.chunk.css"
+    "revision": "5f322a27eb59446f9fd3",
+    "url": "/static/css/main.a7cdf8e3.chunk.css"
   },
   {
     "revision": "e657c0ff3f1fbf4da8d6",
@@ -20,28 +20,24 @@ self.__precacheManifest = [
     "url": "/static/media/exteriorBluePaint.7932410a.png"
   },
   {
-    "revision": "9f7f3ed67fcc3e7a748fdd79d35c6de7",
-    "url": "/static/media/woodenStairs.9f7f3ed6.png"
+    "revision": "2f78050bae057b8ee5ae213bd0c15d9a",
+    "url": "/static/media/woodenStairs.2f78050b.png"
   },
   {
     "revision": "fb01ca7014448f048c2b7a4e200effcf",
     "url": "/static/media/exteriorPaintLawnDriveway.fb01ca70.png"
   },
   {
-    "revision": "eae51981416365574462e74cee8e6d76",
-    "url": "/static/media/drelogo.eae51981.png"
-  },
-  {
     "revision": "0b7f75cdc82d0fcc17dd06f775cf6219",
     "url": "/static/media/owner.0b7f75cd.jpg"
   },
   {
-    "revision": "917b20dfcfec46b4aafd",
-    "url": "/static/js/main.917b20df.chunk.js"
+    "revision": "b5274e57f75cc605ff816f5e8a103641",
+    "url": "/static/media/bedroom.b5274e57.jpg"
   },
   {
-    "revision": "3eb2d9e2a5cc7edbae797f365ae1521f",
-    "url": "/static/media/cabinents.3eb2d9e2.jpg"
+    "revision": "5f322a27eb59446f9fd3",
+    "url": "/static/js/main.5f322a27.chunk.js"
   },
   {
     "revision": "a31074bd32215ff86da2aa10a19f1068",
@@ -60,6 +56,10 @@ self.__precacheManifest = [
     "url": "/static/media/shower.531400bc.jpg"
   },
   {
+    "revision": "c5eae3b90ede2ad5186fa8cbd23254aa",
+    "url": "/static/media/dreBlueLogo.c5eae3b9.png"
+  },
+  {
     "revision": "db5baed77e0da11f18a66d441e48057e",
     "url": "/static/media/tools.db5baed7.jpeg"
   },
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/static/media/homepagephoto.14b76cb2.jpg"
   },
   {
-    "revision": "2f56a139798b19a8cc0c1feaad813dfd",
+    "revision": "5d80c4934ed68e12a5b423d07edcc7fa",
     "url": "/index.html"
   }
 ];

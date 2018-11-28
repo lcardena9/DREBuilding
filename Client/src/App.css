@@ -11,13 +11,19 @@
     justify-content: center;
     padding-bottom: 45px;
 }
+
+
+.about-info-column-2{
+  padding: 10px;
+}
 .App {
   text-align: center;
 }
 
 .btn-link {
   margin-top: 10px;
-  color: black;  
+  font-weight: 600px;
+  color: #02718d;  
   padding: 20px;
   text-decoration: white;
   font-size: 16px;
@@ -46,10 +52,11 @@
 
 .dre-logo {
   width: 50%;
+  padding: 100px;
 }
 .footer {
   display: flex;
-  background-color: black;
+  background-color:#02718d;
   height: 40px;
   font-family: Arial, Helvetica, sans-serif;
   justify-content: flex-end;
@@ -71,11 +78,6 @@
     height: 100%;
     height: 100px;
   margin-top: -30px;
-}
-
-.header-logo {
-  height: 45px;
-  margin-right: auto;
 }
 
 
@@ -117,7 +119,6 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
 }
 
 .info-column {
@@ -127,27 +128,50 @@
 
 .more-button{
   color: white;
-  background-color: black;
-  padding: 20px;
+  background-color: #02718d;
+  padding: 18px;
   border-radius: 15px;
-  text-decoration: black;
+  text-decoration: #02718d;
   font-size: 16px;
+  border: 2px solid #02718d;
 }
 
 .more-button:hover {
-  color: white;
-  background-color: red;
-  text-decoration: red;
+  color: #02718d;
+  background-color: white;
+  text-decoration: white;
+  border: 2px solid #02718d;
 }
 
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   background-color: white;
   margin-top: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   align-items: center;
-  justify-content: flex-end;
-  padding: 5px 5px 25px 5px;
+  /* justify-content: space-around; */
+  padding-bottom: 25px;
+}
+
+.nav-box{
+  position: relative;
+  width: 400px;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+}
+.header-logo {
+  max-width: 300px;
+  padding-bottom: 20px;
+}
+
+.header-logo-box {
+  position: relative;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
 }
 .navHeaderBar{
   height: 50px;
@@ -182,6 +206,7 @@
 .page-bar {
   padding-top: 30px;
   margin-left: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
 }
 
@@ -217,6 +242,7 @@
   border-radius: 25px;
   object-fit: cover;
 }
+
 .two-column{
   padding-top: 50px;
   display: flex;
@@ -231,6 +257,7 @@
 
 .titles{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #02718d;
 }
 
 body {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import blueHouse from '../photos/exteriorBluePaint.png';
 import stairs from '../photos/woodenStairs.png';
 import houseLawn from '../photos/exteriorPaintLawnDriveway.png';
-import logo from '../photos/drelogo.png';
+import logo from '../photos/dreBrandStamp.png';
 import { Link } from 'react-router-dom';
 
 class HomePage extends Component {
