@@ -27,7 +27,7 @@ class ContactPage extends Component {
                                 Serving Long Beach, South Bay, Orange County, and the surrounding areas
                                 </p>
                                 <p><a href="tel:+1-562-506-5315">562.506.5315</a></p>
-                                <a href="mailto:Dominick.Espinoza17@gmail.com@gmail.com?Subject=Quote%20Request" target="_top">Dominick.Espinoza17@gmail.com</a>
+                                <a href="mailto:Dominick.Espinoza17@gmail.com?Subject=Quote%20Request" target="_top">Dominick.Espinoza17@gmail.com</a>
                         </div>
                     
 
